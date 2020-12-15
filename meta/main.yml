@@ -1,3 +1,6 @@
 ---
 
+galaxy_info:
+  name: "Patrick Boyle"
+  description: "Installs python/python3."
 dependencies: []
