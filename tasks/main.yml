@@ -1,0 +1,4 @@
+---
+
+- name: "python is installed and configured."
+  include_tasks: "install.yml"

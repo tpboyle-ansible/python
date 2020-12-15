@@ -1,0 +1,6 @@
+---
+- name: Set up Python/Python3.
+  hosts: all
+  become: yes
+  tasks:
+    - include_tasks: tasks/main.yml

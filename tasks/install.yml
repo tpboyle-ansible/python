@@ -1,0 +1,19 @@
+---
+
+- name: python is installed.
+  become: yes
+  package:
+    state: present
+    name: 
+      - python3
+      - python3-pip
+      - python
+      - python-pip
+  
+- name: additional python modules are installed.
+  become: yes
+  package:
+    state: present
+    name: 
+      - python-apt
+      
